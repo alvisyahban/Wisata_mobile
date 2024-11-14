@@ -1,4 +1,5 @@
 import 'package:aslab_travel/const.dart';
+import 'package:aslab_travel/latihanmodul/pertemuan6.dart';
 import 'package:aslab_travel/model/landing_model.dart';
 import 'package:flutter/material.dart';
 
@@ -63,7 +64,7 @@ class _LandingPageOneState extends State<LandingPageOne> {
                       height: 10,
                     ),
                     const Text(
-                      "Ayo jelajahi Indonesia bersama kami dan ciptakan kenangan tak terlupakan yang akan bertahan seumur hidup.",
+                      "Ayo jelajahi Jepang bersama kami dan ciptakan kenangan tak terlupakan yang akan bertahan seumur hidup.",
                       style: TextStyle(
                           fontSize: 11,
                           color: Colors.white,
@@ -110,12 +111,12 @@ class _LandingPageOneState extends State<LandingPageOne> {
                         children: [
                           GestureDetector(
                             onTap: () {
-                              // Navigator.push(
-                              //   context,
-                              //   MaterialPageRoute(
-                              //     builder: (context) => HomeScreen(),
-                              //   ),
-                              // );
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Pertemuan6(),
+                                ),
+                              );
                             },
                             child: Container(
                               height: 60,
